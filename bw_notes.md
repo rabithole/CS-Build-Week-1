@@ -33,10 +33,8 @@
 	- Cell 'Properties'
 	1. State of cell: Alive or Dead
 	2. current state
-	3. Clickable/Tappable
-
-		a. Clicked for users to set up intial cell configuration.
-		
+	3. Clickable/Tappable<br>
+		a. Clicked for users to set up intial cell configuration.<br>
 		b. Not clickable when simulation is running.  
 	4. Begaviors: Toggle state functionality. 
 		a. Manual toggle alive or dead before sim running. 
