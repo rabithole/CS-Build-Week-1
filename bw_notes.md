@@ -31,19 +31,19 @@
 	- Grid at least 25x25. Go as big as wanted. 
 
 	- Cell 'Properties'
-	1. State of cell: Alive or Dead
-	2. current state
-	3. Clickable/Tappable<br>
-		a. Clicked for users to set up intial cell configuration.<br>
-		b. Not clickable when simulation is running.  
-	4. Begaviors: Toggle state functionality.<br>
-		a. Manual toggle alive or dead before sim running.<br>
-		b. Sim running and rules of life caused cell to change state. (alive or dead)
-	5. Appropriate data structure
-	6. Display the current generation in number format. 
-	7. Use a timeout function to control the generations of cells and update the generation. 
-	8. Start and stop buttons. 
-	9. Button to clear the grid. 
+1. State of cell: Alive or Dead
+2. current state
+3. Clickable/Tappable<br>
+	a. Clicked for users to set up intial cell configuration.<br>
+	b. Not clickable when simulation is running.  
+4. Begaviors: Toggle state functionality.<br>
+	a. Manual toggle alive or dead before sim running.<br>
+	b. Sim running and rules of life caused cell to change state. (alive or dead)
+5. Appropriate data structure
+6. Display the current generation in number format. 
+7. Use a timeout function to control the generations of cells and update the generation. 
+8. Start and stop buttons. 
+9. Button to clear the grid. 
 
 # Write an algorithm that:
 ### Implements the following basic steps:
