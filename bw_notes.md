@@ -36,8 +36,8 @@
 	3. Clickable/Tappable<br>
 		a. Clicked for users to set up intial cell configuration.<br>
 		b. Not clickable when simulation is running.  
-	4. Begaviors: Toggle state functionality. 
-		a. Manual toggle alive or dead before sim running. 
+	4. Begaviors: Toggle state functionality.<br>
+		a. Manual toggle alive or dead before sim running.<br>
 		b. Sim running and rules of life caused cell to change state. (alive or dead)
 	5. Appropriate data structure
 	6. Display the current generation in number format. 
@@ -47,12 +47,12 @@
 
 # Write an algorithm that:
 ### Implements the following basic steps:
-	1. For each cell in the current generation's grid:
-		a. Examine state of all eight neighbors (it's up to you whether you want cells to wrap around the grid and consider cells on the other side or not)
-		b. Apply rules of life to determine if this cell will change states
-		c. When main loop completes:
-			1. Swap current and next grids
-			2. Repeat until simulation stopped
+- For each cell in the current generation's grid:
+	1. Examine state of all eight neighbors (it's up to you whether you want cells to wrap around the grid and consider cells on the other side or not)
+	2. Apply rules of life to determine if this cell will change states
+	3. When main loop completes:<br>
+		a. Swap current and next grids<br>
+		b. Repeat until simulation stopped
 ### Breaks down above steps into appropriate sub-tasks implemented with helper functions to improve readability
 
 ### Uses double buffering to update grid with next generation.
